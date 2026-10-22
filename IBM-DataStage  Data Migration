@@ -1,1 +1,30 @@
+IBM DATA STAGE Data Migraion Project.
+
+Project Ultimate Goal:
+We have to build and deploy the ETL jobs from IBM 11.5 DataStage to IBM DataStage Next gen cloud.
+
+Total number of jobs we worked : we worked 2582 Jobs we worked in that 1050 is Sequal jobs.
+
+These are System Integration jobs. Transforming the data from source to destination in between multiple teams from begin stores team to BI/Mars team.
+
+This is the flow in System Integration.
+
+Stores, OMS(ECOM) --> RESA (AUDIT) Loyality (Coupan) --> MERCH (Retail Merch) --> WMS ( Warehouse Team) --> Supply-Chain --> MERCH --> BI/MARS.
+
+We have 5 main Data Centers where we store the information.
+
+One sample ETL job how we develped and it works end to end info in breif.
+
+
+At begin we understand the Bussiness logic of the JOB from where we are getting the data and which what data in which format either we are pulling the direct fom DB or any file manner.
+Later what data we required for next step in that transoformation we use transformer node to the job any merge condition or updation like that. Later we focues on Taget where the send the data in db or file along insert or update or append.
+
+We use multiple node which are having in IBM datstage.
+
+
+
+
+
+
+
 
